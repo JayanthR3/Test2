@@ -1,0 +1,26 @@
+<div class="jumbotron">
+    <h1>{{title}}</h1>
+    <h1>Angular App Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, itaque! Recusandae corrupti molestiae saepe possimus ut, amet culpa illum expedita eum fugit voluptatem 
+        sint harum distinctio quas quibusdam consectetur dolorum!</h1>
+    
+</div>
+<div>
+    <table class="table">
+        <th>
+            <tr>
+                <th>Name</th>
+                <th>Code</th>
+                <th>Date</th>
+            </tr>
+        </th>
+        <tbody>
+            <tr *ngFor="let prod of products">
+                <td>{{prod.productName}}</td>
+                <td>{{prod.productCode}}</td>
+                <td>{{prod.price}}</td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>
+
